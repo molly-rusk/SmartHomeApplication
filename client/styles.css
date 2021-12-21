@@ -16,49 +16,58 @@ header{
 
 
 .menuBtnDiv{
-   
+
     text-align: center;
     padding: 200px;
     
 }
 
-#tempBtn{
-    height: 300px;
+.homeBtn{
+    border-style:dotted;
+    border-color: white;
+    border-radius: 200px;
+    padding: 20px;
     width: 300px;
+    height: 300px;
+    
+}
+
+#tempBtn{
+    
     margin-right: 100px;
     cursor: pointer;
-    background-color: white;
+    background-color: lightpink;
     font-size: x-large;
 }
 
-#tempImg{
-    height: 150px;
-    width: 150px;
-}
-
-
 #lockBtn{
-    height: 300px;
-    width: 300px;
+   
     margin-right: 100px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(157, 235, 170);
     font-size: x-large;
 }
 
 #lightBtn{
-    height: 300px;
-    width: 300px;
+  
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(255, 229, 144);
     font-size: x-large;
 }
 
+.btnImg{
+    height: 100px;
+    width: 150px;
+    border-radius: 200px;
+   
+}
+
 .buffer{
- padding: 25px
+ padding: 50px
 }
 
 .copyright{
     color: white;
     font-size: small;
 }
+
