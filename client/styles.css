@@ -1,0 +1,64 @@
+ body{
+    background: rgb(161,201,255);
+    background: radial-gradient(circle, rgba(161,201,255,0.7925925925925926) 0%, rgba(150,255,203,0.8296296296296296) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: xx-large
+}
+
+.subtitle{
+    text-align: center;
+    font-size: medium;
+}
+
+
+.menuBtnDiv{
+   
+    text-align: center;
+    padding: 200px;
+    
+}
+
+#tempBtn{
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    cursor: pointer;
+    background-color: white;
+    font-size: x-large;
+}
+
+#tempImg{
+    height: 150px;
+    width: 150px;
+}
+
+
+#lockBtn{
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    cursor: pointer;
+    background-color: white;
+    font-size: x-large;
+}
+
+#lightBtn{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    background-color: white;
+    font-size: x-large;
+}
+
+.buffer{
+ padding: 25px
+}
+
+.copyright{
+    color: white;
+    font-size: small;
+}

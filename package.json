@@ -2,5 +2,24 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2"
-  }
+  },
+  "name": "capstoneproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molly-rusk/foundations-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molly-rusk/foundations-capstone/issues"
+  },
+  "homepage": "https://github.com/molly-rusk/foundations-capstone#readme",
+  "description": ""
 }
