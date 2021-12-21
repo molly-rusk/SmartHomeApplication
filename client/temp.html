@@ -7,7 +7,23 @@
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <a href="./index.html">Homepage</a>
+<body class="tempBody">
+    <a class="homepageBtn" href="./index.html">Homepage</a>
+
+    <header id="tempHeader">The current temperature is 75</header>
+    <div id="tempDiv">
+        <form id="tempForm">
+            Change temperature to 
+            <input id="tempInput" type="text">
+        </form>
+    </div>
+
+
+    <div class="tempBuffer"></div>
+
+    <header class="copyright">© 2021-2022 SmartPlace Inc., All Rights Reserved.</header>
+    
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>

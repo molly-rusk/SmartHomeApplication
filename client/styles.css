@@ -22,14 +22,14 @@ header{
     
 }
 
-.homeBtn{
+.mainBtn{
     border-style:dotted;
     border-color: white;
     border-radius: 200px;
     padding: 20px;
     width: 300px;
     height: 300px;
-    
+    font-size: large
 }
 
 #tempBtn{
@@ -37,7 +37,7 @@ header{
     margin-right: 100px;
     cursor: pointer;
     background-color: lightpink;
-    font-size: x-large;
+    
 }
 
 #lockBtn{
@@ -45,21 +45,21 @@ header{
     margin-right: 100px;
     cursor: pointer;
     background-color: rgb(157, 235, 170);
-    font-size: x-large;
+    
 }
 
 #lightBtn{
   
     cursor: pointer;
     background-color: rgb(255, 229, 144);
-    font-size: x-large;
+    
 }
 
 .btnImg{
     height: 100px;
-    width: 150px;
+    width: 125px;
     border-radius: 200px;
-   
+    opacity: .90;
 }
 
 .buffer{
@@ -71,3 +71,31 @@ header{
     font-size: small;
 }
 
+.homepageBtn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tempBody{
+    color:white;
+  
+}
+
+#tempDiv{
+    padding-top: 200px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#tempInput{
+    height: 20px;
+    width: 60px;
+    color: black;
+    border-color: white;
+    border-radius: 30px;
+    opacity: .5;
+    cursor: pointer
+}
+
+.tempBuffer{
+    padding: 300px
+}
