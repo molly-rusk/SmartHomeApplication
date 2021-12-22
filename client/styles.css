@@ -63,7 +63,7 @@ header{
 }
 
 .buffer{
- padding: 50px
+ padding: 70px
 }
 
 .copyright{
@@ -72,12 +72,14 @@ header{
 }
 
 .homepageBtn{
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #tempHeader{
     padding-top: 300px
 }
+
 
 #tempBody{
     color:black;
