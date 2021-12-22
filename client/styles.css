@@ -109,3 +109,46 @@ header{
     padding: 50px;
     
 }
+
+#lockBody{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
+    background-position:top left;
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+#lockBodyDiv{
+    text-align: center;
+    padding-bottom: 320px;
+}
+
+#lockHeader{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+
+
+.lockBtn{
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+  
+ 
+}
+
+
+
+#lockedBtn{
+    margin-right: 50px;
+}
+
+.lockBuffer{
+    padding-top: 100px
+}
+
+#lockCopyright{
+    color: black
+}

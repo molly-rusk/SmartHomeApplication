@@ -7,7 +7,24 @@
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body id="lockBody">
     <a class="homepageBtn" href="./index.html">Homepage</a>
+
+    <div id="lockHeaderDiv">
+        <header id="lockHeader">All doors are currently unlocked</header>
+    </div>
+    <div id="lockBodyDiv">
+        <form id="lockbodyForm">
+            <input id="lockInput" type="text" placeholder="What is your name?">
+            <p></p>
+            <button class="lockBtn" id="lockedBtn">Lock Doors</button>
+            <button class="lockBtn" id="unlockedBtn">Unlock Doors</button>
+        </form>
+    </div>
+
+    <div class="lockbuffer"></div>
+    <header class="copyright" id="lockCopyright">© 2021-2022 SmartPlace Inc., All Rights Reserved.</header>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="lock.js"></script>
 </body>
 </html>
