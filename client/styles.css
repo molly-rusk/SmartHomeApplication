@@ -1,4 +1,4 @@
- body{
+ #mainBody{
     background: rgb(161,201,255);
     background: radial-gradient(circle, rgba(161,201,255,0.7925925925925926) 0%, rgba(150,255,203,0.8296296296296296) 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,13 +75,20 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tempBody{
-    color:white;
-  
+#tempHeader{
+    padding-top: 300px
+}
+
+#tempBody{
+    color:black;
+    background: rgb(255,76,76);
+    background: radial-gradient(circle, rgba(255,76,76,1) 0%, rgba(232,185,125,1) 55%, rgba(86,163,231,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #tempDiv{
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 300px;
     text-align: center;
     font-size: x-large;
 }
@@ -90,12 +97,13 @@ header{
     height: 20px;
     width: 60px;
     color: black;
-    border-color: white;
+    border-color: grey;
     border-radius: 30px;
-    opacity: .5;
+    opacity: .8;
     cursor: pointer
 }
 
 .tempBuffer{
-    padding: 300px
+    padding: 50px;
+    
 }
