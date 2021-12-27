@@ -11,20 +11,41 @@
     <a class="homepageBtn" href="./index.html">Homepage</a>
 
     <div id="lockHeaderDiv">
-        <header id="lockHeader">All doors are currently unlocked</header>
+        <header id="lockHeader">I want to:</header>
     </div>
     <div id="lockBodyDiv">
         <form id="lockbodyForm">
-            <input id="lockInput" type="text" placeholder="What is your name?">
             <p></p>
             <button class="lockBtn" id="lockedBtn">Lock Doors</button>
             <button class="lockBtn" id="unlockedBtn">Unlock Doors</button>
         </form>
     </div>
 
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        document.getElementById('lockedBtn').onclick = function() {
+            axios.get("http://localhost:3030/api/locked/")
+                .then(function (response) {
+                    const data = response.data;
+                    alert(data)
+                })
+        }
+    </script>
+
+    <script>
+        document.getElementById('unlockedBtn').onclick = function() {
+            axios.get("http://localhost:3030/api/unlocked/")
+                .then(function (response) {
+                    const data = response.data
+                    alert(data)
+                })
+        }
+    </script>
+
     <div class="lockbuffer"></div>
     <header class="copyright" id="lockCopyright">© 2021-2022 SmartPlace Inc., All Rights Reserved.</header>
-    <script src="./node_modules/axios/dist/axios.min.js"></script>
-    <script src="lock.js"></script>
+    
 </body>
 </html>

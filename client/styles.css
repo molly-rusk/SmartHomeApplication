@@ -113,15 +113,13 @@ header{
 #lockBody{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
-    background-position:top left;
-    background-repeat:repeat;
-    background-attachment:fixed;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.7399334733893557) 0%, rgba(253,29,29,0.6502976190476191) 50%, rgba(252,176,69,0.6138830532212884) 100%);
 }
 
 #lockBodyDiv{
     text-align: center;
-    padding-bottom: 320px;
+    padding-bottom: 460px;
 }
 
 #lockHeader{
@@ -132,13 +130,42 @@ header{
 
 
 .lockBtn{
-    height: 100px;
+    /* height: 100px;
     width: 300px;
     border-radius: 30px;
-  
- 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 8px 20px black; */
+   
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
 }
 
+.lockBtn::after{
+    content: "";
+    background-color: #95d8ff;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+    border-radius: 100px;
+    
+}
+
+.lockBtn:hover::after {
+    top: 0px;
+    left: 0px;
+  }
 
 
 #lockedBtn{
@@ -146,7 +173,7 @@ header{
 }
 
 .lockBuffer{
-    padding-top: 100px
+    padding-top: 200px
 }
 
 #lockCopyright{
