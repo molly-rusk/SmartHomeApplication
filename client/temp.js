@@ -1,10 +1,11 @@
+
 let tempSubmitForm = document.getElementById('tempForm')
 let tempInput = document.getElementById('tempInput')
 let tempHeader = document.getElementById('tempHeader')
 
-    tempSubmitForm.addEventListener('submit', function(event) {
-        event.preventDefault()
-        tempHeader.innerText = 'The current temperature is ' + tempInput.value + ' °F'
+tempSubmitForm.addEventListener('submit', function(event) {
+    event.preventDefault()
+    tempHeader.innerText = 'The current temperature is ' + tempInput.value + ' °F'
          
     if(tempInput.value >= 75){
         let bg = `background: rgb(255,246,139);
@@ -18,6 +19,3 @@ let tempHeader = document.getElementById('tempHeader')
     }
         
     })
-
-
-   

@@ -14,4 +14,9 @@
         document.location.href = './lights.html'
     })
 
+    let reviewBtn = document.getElementById('reviewBtn')
+    reviewBtn.addEventListener('click', function() {
+        document.location.href = './review.html'
+    })
 
+    
