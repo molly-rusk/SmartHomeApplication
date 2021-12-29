@@ -20,10 +20,7 @@
             <button class="lockBtn" id="unlockedBtn">Unlock Doors</button>
         </form>
     </div>
-
-    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
     <script>
         document.getElementById('lockedBtn').onclick = function() {
             axios.get("http://localhost:3030/api/locked/")
@@ -33,7 +30,6 @@
                 })
         }
     </script>
-
     <script>
         document.getElementById('unlockedBtn').onclick = function() {
             axios.get("http://localhost:3030/api/unlocked/")
@@ -43,9 +39,7 @@
                 })
         }
     </script>
+    <script src="lock.js"></script>
 
-    <div class="lockbuffer"></div>
-    <header class="copyright" id="lockCopyright">© 2021-2022 SmartPlace Inc., All Rights Reserved.</header>
-    
 </body>
 </html>
