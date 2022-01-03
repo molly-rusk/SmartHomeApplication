@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 
-app.get("/api/locked", (req,res) => {
+app.get("/locked", (req,res) => {
     const locked = ["All doors have been locked",
                     "Doors locked successfully",
                     ]
@@ -16,7 +16,7 @@ app.get("/api/locked", (req,res) => {
     res.status(200).send(randomLocked)
 })
 
-app.get("/api/unlocked", (req,res) => {
+app.get("/unlocked", (req,res) => {
     const unlocked = ["All doors have been unlocked sucessfully",
                       "Doors unlocked sucessfully"
                     ]

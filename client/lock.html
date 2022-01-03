@@ -23,7 +23,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         document.getElementById('lockedBtn').onclick = function() {
-            axios.get("http://localhost:3030/api/locked/")
+            axios.get("http://localhost:3030/locked/")
                 .then(function (response) {
                     const data = response.data;
                     alert(data)
@@ -32,14 +32,14 @@
     </script>
     <script>
         document.getElementById('unlockedBtn').onclick = function() {
-            axios.get("http://localhost:3030/api/unlocked/")
+            axios.get("http://localhost:3030/unlocked/")
                 .then(function (response) {
                     const data = response.data
                     alert(data)
                 })
         }
     </script>
-    <script src="lock.js"></script>
+    
 
 </body>
 </html>

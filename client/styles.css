@@ -252,6 +252,7 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     resize: none;
+    border-radius: 8px;
    
 }
 
