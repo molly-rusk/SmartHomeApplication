@@ -5,6 +5,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
+let reviewArr = []
 
 app.get("/locked", (req,res) => {
     const locked = ["All doors have been locked",
@@ -27,6 +28,17 @@ app.get("/unlocked", (req,res) => {
     res.status(200).send(randomUnlocked)
 })
 
+app.post("/reviews", (req,res) => {
 
+    console.log(req.body)
+
+    let review = req.body
+
+    reviewArr.push(review)
+
+    res.status(200).send(reviewArr)
+
+
+})
 
 app.listen(3030, () => console.log('Listening on port 3030!'))
