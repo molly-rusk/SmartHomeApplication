@@ -30,15 +30,10 @@ app.get("/unlocked", (req,res) => {
 
 app.post("/reviews", (req,res) => {
 
-    console.log(req.body)
-
     let review = req.body
-
     reviewArr.push(review)
 
     res.status(200).send(reviewArr)
-
-
 })
 
 app.listen(3030, () => console.log('Listening on port 3030!'))
