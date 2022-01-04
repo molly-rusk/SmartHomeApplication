@@ -1,4 +1,3 @@
-//const axios = require('axios')
 
 let reviewSubmit = document.getElementById('reviewForm')
 let reviewName = document.getElementById('reviewName')
