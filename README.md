@@ -7,7 +7,7 @@ The SmartHome Website is an easy to use application that can solve modern day pr
 ## Tech stack used
 
 
-Javascript, VSCode, Node.js, Axios, Cors, Express
+Javascript, VSCode, HTML, CSS, Node.js, Axios, Cors, Express
 
 ## Features
 
